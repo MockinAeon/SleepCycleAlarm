@@ -1,5 +1,3 @@
-
-
 <div align=center><img width="120" height="120" src="https://github.com/MockinAeon/SleepCycleAlarm/blob/master/SleepCycleAlarm/Assets.xcassets/icon.imageset/123-2.jpeg"/></div>
 
 # SleepCycleAlarm
@@ -15,24 +13,24 @@ For the second problem, while you sleep, you go through several cycles of sleep 
 
 ### Toppltips
 For first-time user, there are some tips to get to know the work flow.<br>
-![](https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/first%20time%20tips.gif) <br>
+<div align=center><img src="https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/first%20time%20tips.gif"/></div>
 
 ### Measure sleep cycle
 According to multiple sleep cycle measurements, caculate the average sleep cycle for alrm.<br>
-![](https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/mesear%20sleep%20cycle.gif) <br>
+<div align=center><img src="https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/mesear%20sleep%20cycle.gif"/></div>
 
 ### Alarm
 Set wake up time interval, alarm when users are in light sleep state.<br>
-![](https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/alarm%20mode.gif) <br>
+<div align=center><img src="https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/alarm%20mode.gif"/></div>
 
 ### Sleep Records
-![](https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/sleep%20records.gif) <br>
+<div align=center><img src="https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/sleep%20records.gif"/></div>
 
 ### Sleep Sound
-![](https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/Sleep%20sound.gif) <br>
+<div align=center><img src="https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/Sleep%20sound.gif"/></div>
 
 ### Other Settings
-![](https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/Other%20Settings.gif) <br>
+<div align=center><img src="https://github.com/MockinAeon/SleepCycleAlarm/blob/master/gif/Other%20Settings.gif"/></div>
 
 ## Something more
 1.	I use custom segue to create the animation when going to another view. <br>
