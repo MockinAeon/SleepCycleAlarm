@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C03F1B31EB41CDB004DAE22 /* sleeping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C03F1B11EB41CDB004DAE22 /* sleeping.xcdatamodeld */; };
+		6C03F1B71EB42122004DAE22 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C03F1B61EB42122004DAE22 /* StatisticsViewController.m */; };
+		6C03F1BB1EB43AA9004DAE22 /* SleepSoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C03F1BA1EB43AA9004DAE22 /* SleepSoundViewController.m */; };
+		6C03F1C01EB43ED8004DAE22 /* sound-Bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C03F1BC1EB43ED8004DAE22 /* sound-Bell.mp3 */; };
+		6C03F1C11EB43ED8004DAE22 /* sound-Water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C03F1BD1EB43ED8004DAE22 /* sound-Water.mp3 */; };
+		6C03F1C21EB43ED8004DAE22 /* sound-Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C03F1BE1EB43ED8004DAE22 /* sound-Rain.mp3 */; };
+		6C03F1C31EB43ED8004DAE22 /* sound-Bug.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C03F1BF1EB43ED8004DAE22 /* sound-Bug.mp3 */; };
+		6C03F1C51EB44217004DAE22 /* sound-Wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C03F1C41EB44217004DAE22 /* sound-Wind.mp3 */; };
+		6C1E52F81EA66E64004CD525 /* AlarmRunningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E52F71EA66E64004CD525 /* AlarmRunningViewController.m */; };
+		6C1E52FE1EAA99F7004CD525 /* IMG_3860.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E52FD1EAA99F7004CD525 /* IMG_3860.JPG */; };
+		6C1E53001EAA9DF8004CD525 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C1E52FF1EAA9DF8004CD525 /* 123.jpg */; };
+		6C288E911EA0447700033DAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C288E901EA0447700033DAB /* main.m */; };
+		6C288E941EA0447700033DAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C288E931EA0447700033DAB /* AppDelegate.m */; };
+		6C288E9D1EA0447700033DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C288E9B1EA0447700033DAB /* Main.storyboard */; };
+		6C288E9F1EA0447700033DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C288E9E1EA0447700033DAB /* Assets.xcassets */; };
+		6C288EA21EA0447700033DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C288EA01EA0447700033DAB /* LaunchScreen.storyboard */; };
+		6C288EAF1EA4556800033DAB /* AlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C288EAE1EA4556800033DAB /* AlarmViewController.m */; };
+		6C288EB31EA459AD00033DAB /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C288EB21EA459AD00033DAB /* TabBarViewController.m */; };
+		6C288EB51EA4620A00033DAB /* tab_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C288EB41EA4620A00033DAB /* tab_img.png */; };
+		6C288EB71EA5141D00033DAB /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C288EB61EA5141D00033DAB /* background1.jpg */; };
+		6C288EBA1EA5649000033DAB /* TestCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C288EB91EA5649000033DAB /* TestCycleViewController.m */; };
+		6C8961741EA5981300678FE6 /* CustomPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8961731EA5981300678FE6 /* CustomPush.m */; };
+		6C8961771EA5A81400678FE6 /* CustomPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8961761EA5A81400678FE6 /* CustomPop.m */; };
+		6C89617B1EA5B1B300678FE6 /* CustomNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C89617A1EA5B1B300678FE6 /* CustomNavigationViewController.m */; };
+		6C9DA89A1EABD84B0078E682 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C9DA8991EABD84B0078E682 /* sound1.mp3 */; };
+		6C9DA89C1EABDE4E0078E682 /* background2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6C9DA89B1EABDE4E0078E682 /* background2.JPG */; };
+		6C9DA89F1EABE6AD0078E682 /* WakeUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9DA89E1EABE6AD0078E682 /* WakeUpViewController.m */; };
+		6C9DA8A51EAD54E80078E682 /* SoundPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9DA8A41EAD54E80078E682 /* SoundPickViewController.m */; };
+		6C9DA8A71EADAA690078E682 /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C9DA8A61EADAA690078E682 /* sound2.mp3 */; };
+		6C9DA8A91EADAAC60078E682 /* sound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C9DA8A81EADAAC60078E682 /* sound3.mp3 */; };
+		6C9DA8AB1EADAB3B0078E682 /* sound4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C9DA8AA1EADAB3B0078E682 /* sound4.mp3 */; };
+		6C9DA8B31EAFA87D0078E682 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9DA8B21EAFA87D0078E682 /* SettingViewController.m */; };
+		6CA023801EB13C5100BCABD9 /* SoundSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA0237F1EB13C5100BCABD9 /* SoundSettingViewController.m */; };
+		6CA023891EB1445000BCABD9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA023881EB1445000BCABD9 /* MessageUI.framework */; };
+		6CA0238C1EB184CF00BCABD9 /* HYNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA0238A1EB184CF00BCABD9 /* HYNoticeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C03F1B21EB41CDB004DAE22 /* sleeping.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sleeping.xcdatamodel; sourceTree = "<group>"; };
+		6C03F1B51EB42122004DAE22 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		6C03F1B61EB42122004DAE22 /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
+		6C03F1B91EB43AA9004DAE22 /* SleepSoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepSoundViewController.h; sourceTree = "<group>"; };
+		6C03F1BA1EB43AA9004DAE22 /* SleepSoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepSoundViewController.m; sourceTree = "<group>"; };
+		6C03F1BC1EB43ED8004DAE22 /* sound-Bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-Bell.mp3"; sourceTree = "<group>"; };
+		6C03F1BD1EB43ED8004DAE22 /* sound-Water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-Water.mp3"; sourceTree = "<group>"; };
+		6C03F1BE1EB43ED8004DAE22 /* sound-Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-Rain.mp3"; sourceTree = "<group>"; };
+		6C03F1BF1EB43ED8004DAE22 /* sound-Bug.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-Bug.mp3"; sourceTree = "<group>"; };
+		6C03F1C41EB44217004DAE22 /* sound-Wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-Wind.mp3"; sourceTree = "<group>"; };
+		6C1E52F61EA66E64004CD525 /* AlarmRunningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmRunningViewController.h; sourceTree = "<group>"; };
+		6C1E52F71EA66E64004CD525 /* AlarmRunningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmRunningViewController.m; sourceTree = "<group>"; };
+		6C1E52FD1EAA99F7004CD525 /* IMG_3860.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3860.JPG; sourceTree = "<group>"; };
+		6C1E52FF1EAA9DF8004CD525 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		6C288E8C1EA0447700033DAB /* SleepCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C288E901EA0447700033DAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C288E921EA0447700033DAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C288E931EA0447700033DAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C288E9C1EA0447700033DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C288E9E1EA0447700033DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C288EA11EA0447700033DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C288EA31EA0447700033DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C288EAD1EA4556800033DAB /* AlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmViewController.h; sourceTree = "<group>"; };
+		6C288EAE1EA4556800033DAB /* AlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmViewController.m; sourceTree = "<group>"; };
+		6C288EB11EA459AD00033DAB /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		6C288EB21EA459AD00033DAB /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		6C288EB41EA4620A00033DAB /* tab_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_img.png; sourceTree = "<group>"; };
+		6C288EB61EA5141D00033DAB /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
+		6C288EB81EA5649000033DAB /* TestCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCycleViewController.h; sourceTree = "<group>"; };
+		6C288EB91EA5649000033DAB /* TestCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCycleViewController.m; sourceTree = "<group>"; };
+		6C8961721EA5981300678FE6 /* CustomPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPush.h; sourceTree = "<group>"; };
+		6C8961731EA5981300678FE6 /* CustomPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPush.m; sourceTree = "<group>"; };
+		6C8961751EA5A81400678FE6 /* CustomPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPop.h; sourceTree = "<group>"; };
+		6C8961761EA5A81400678FE6 /* CustomPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPop.m; sourceTree = "<group>"; };
+		6C8961791EA5B1B300678FE6 /* CustomNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationViewController.h; sourceTree = "<group>"; };
+		6C89617A1EA5B1B300678FE6 /* CustomNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationViewController.m; sourceTree = "<group>"; };
+		6C9DA8991EABD84B0078E682 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		6C9DA89B1EABDE4E0078E682 /* background2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.JPG; sourceTree = "<group>"; };
+		6C9DA89D1EABE6AD0078E682 /* WakeUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WakeUpViewController.h; sourceTree = "<group>"; };
+		6C9DA89E1EABE6AD0078E682 /* WakeUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WakeUpViewController.m; sourceTree = "<group>"; };
+		6C9DA8A31EAD54E80078E682 /* SoundPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundPickViewController.h; sourceTree = "<group>"; };
+		6C9DA8A41EAD54E80078E682 /* SoundPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPickViewController.m; sourceTree = "<group>"; };
+		6C9DA8A61EADAA690078E682 /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
+		6C9DA8A81EADAAC60078E682 /* sound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound3.mp3; sourceTree = "<group>"; };
+		6C9DA8AA1EADAB3B0078E682 /* sound4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound4.mp3; sourceTree = "<group>"; };
+		6C9DA8B11EAFA87D0078E682 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		6C9DA8B21EAFA87D0078E682 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		6CA0237E1EB13C5100BCABD9 /* SoundSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundSettingViewController.h; sourceTree = "<group>"; };
+		6CA0237F1EB13C5100BCABD9 /* SoundSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundSettingViewController.m; sourceTree = "<group>"; };
+		6CA023881EB1445000BCABD9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6CA0238A1EB184CF00BCABD9 /* HYNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNoticeView.m; sourceTree = "<group>"; };
+		6CA0238B1EB184CF00BCABD9 /* HYNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNoticeView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C288E891EA0447700033DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA023891EB1445000BCABD9 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C03F1B41EB420F7004DAE22 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				6C03F1B51EB42122004DAE22 /* StatisticsViewController.h */,
+				6C03F1B61EB42122004DAE22 /* StatisticsViewController.m */,
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		6C03F1B81EB43A7C004DAE22 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				6C03F1B91EB43AA9004DAE22 /* SleepSoundViewController.h */,
+				6C03F1BA1EB43AA9004DAE22 /* SleepSoundViewController.m */,
+			);
+			name = Sleep;
+			sourceTree = "<group>";
+		};
+		6C288E831EA0447700033DAB = {
+			isa = PBXGroup;
+			children = (
+				6C288E8E1EA0447700033DAB /* SleepCycleAlarm */,
+				6C288E8D1EA0447700033DAB /* Products */,
+				6CA023871EB1444F00BCABD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C288E8D1EA0447700033DAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C288E8C1EA0447700033DAB /* SleepCycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C288E8E1EA0447700033DAB /* SleepCycleAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				6C288E921EA0447700033DAB /* AppDelegate.h */,
+				6C288E931EA0447700033DAB /* AppDelegate.m */,
+				6C288EB11EA459AD00033DAB /* TabBarViewController.h */,
+				6C288EB21EA459AD00033DAB /* TabBarViewController.m */,
+				6C288E9B1EA0447700033DAB /* Main.storyboard */,
+				6C288E9E1EA0447700033DAB /* Assets.xcassets */,
+				6C288EA01EA0447700033DAB /* LaunchScreen.storyboard */,
+				6C288EA31EA0447700033DAB /* Info.plist */,
+				6C288E8F1EA0447700033DAB /* Supporting Files */,
+				6C9DA8AF1EAFA82B0078E682 /* Alarm */,
+				6C9DA8B01EAFA85C0078E682 /* Settings */,
+				6C03F1B41EB420F7004DAE22 /* Statistics */,
+				6C03F1B81EB43A7C004DAE22 /* Sleep */,
+				6CA0238D1EB184D500BCABD9 /* Custom */,
+			);
+			path = SleepCycleAlarm;
+			sourceTree = "<group>";
+		};
+		6C288E8F1EA0447700033DAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C288E901EA0447700033DAB /* main.m */,
+				6C1E52FD1EAA99F7004CD525 /* IMG_3860.JPG */,
+				6C288EB61EA5141D00033DAB /* background1.jpg */,
+				6C9DA89B1EABDE4E0078E682 /* background2.JPG */,
+				6C1E52FF1EAA9DF8004CD525 /* 123.jpg */,
+				6C288EB41EA4620A00033DAB /* tab_img.png */,
+				6C9DA8991EABD84B0078E682 /* sound1.mp3 */,
+				6C9DA8A61EADAA690078E682 /* sound2.mp3 */,
+				6C9DA8A81EADAAC60078E682 /* sound3.mp3 */,
+				6C9DA8AA1EADAB3B0078E682 /* sound4.mp3 */,
+				6C03F1BC1EB43ED8004DAE22 /* sound-Bell.mp3 */,
+				6C03F1BD1EB43ED8004DAE22 /* sound-Water.mp3 */,
+				6C03F1BE1EB43ED8004DAE22 /* sound-Rain.mp3 */,
+				6C03F1BF1EB43ED8004DAE22 /* sound-Bug.mp3 */,
+				6C03F1C41EB44217004DAE22 /* sound-Wind.mp3 */,
+				6C03F1B11EB41CDB004DAE22 /* sleeping.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C9DA8AF1EAFA82B0078E682 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				6C288EAD1EA4556800033DAB /* AlarmViewController.h */,
+				6C288EAE1EA4556800033DAB /* AlarmViewController.m */,
+				6C288EB81EA5649000033DAB /* TestCycleViewController.h */,
+				6C288EB91EA5649000033DAB /* TestCycleViewController.m */,
+				6C1E52F61EA66E64004CD525 /* AlarmRunningViewController.h */,
+				6C1E52F71EA66E64004CD525 /* AlarmRunningViewController.m */,
+				6C9DA89D1EABE6AD0078E682 /* WakeUpViewController.h */,
+				6C9DA89E1EABE6AD0078E682 /* WakeUpViewController.m */,
+				6C9DA8A31EAD54E80078E682 /* SoundPickViewController.h */,
+				6C9DA8A41EAD54E80078E682 /* SoundPickViewController.m */,
+			);
+			name = Alarm;
+			sourceTree = "<group>";
+		};
+		6C9DA8B01EAFA85C0078E682 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6C9DA8B11EAFA87D0078E682 /* SettingViewController.h */,
+				6C9DA8B21EAFA87D0078E682 /* SettingViewController.m */,
+				6CA0237E1EB13C5100BCABD9 /* SoundSettingViewController.h */,
+				6CA0237F1EB13C5100BCABD9 /* SoundSettingViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		6CA023871EB1444F00BCABD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CA023881EB1445000BCABD9 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CA0238D1EB184D500BCABD9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				6C8961721EA5981300678FE6 /* CustomPush.h */,
+				6C8961731EA5981300678FE6 /* CustomPush.m */,
+				6C8961751EA5A81400678FE6 /* CustomPop.h */,
+				6C8961761EA5A81400678FE6 /* CustomPop.m */,
+				6C8961791EA5B1B300678FE6 /* CustomNavigationViewController.h */,
+				6C89617A1EA5B1B300678FE6 /* CustomNavigationViewController.m */,
+				6CA0238A1EB184CF00BCABD9 /* HYNoticeView.m */,
+				6CA0238B1EB184CF00BCABD9 /* HYNoticeView.h */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C288E8B1EA0447700033DAB /* SleepCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C288EA61EA0447700033DAB /* Build configuration list for PBXNativeTarget "SleepCycle" */;
+			buildPhases = (
+				6C288E881EA0447700033DAB /* Sources */,
+				6C288E891EA0447700033DAB /* Frameworks */,
+				6C288E8A1EA0447700033DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepCycle;
+			productName = SleepCycleAlarm;
+			productReference = 6C288E8C1EA0447700033DAB /* SleepCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C288E841EA0447700033DAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mockin_Aeon.;
+				TargetAttributes = {
+					6C288E8B1EA0447700033DAB = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C288E871EA0447700033DAB /* Build configuration list for PBXProject "SleepCycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C288E831EA0447700033DAB;
+			productRefGroup = 6C288E8D1EA0447700033DAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C288E8B1EA0447700033DAB /* SleepCycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C288E8A1EA0447700033DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9DA89A1EABD84B0078E682 /* sound1.mp3 in Resources */,
+				6C9DA89C1EABDE4E0078E682 /* background2.JPG in Resources */,
+				6C288EA21EA0447700033DAB /* LaunchScreen.storyboard in Resources */,
+				6C1E53001EAA9DF8004CD525 /* 123.jpg in Resources */,
+				6C03F1C51EB44217004DAE22 /* sound-Wind.mp3 in Resources */,
+				6C288E9F1EA0447700033DAB /* Assets.xcassets in Resources */,
+				6C9DA8A71EADAA690078E682 /* sound2.mp3 in Resources */,
+				6C288E9D1EA0447700033DAB /* Main.storyboard in Resources */,
+				6C9DA8A91EADAAC60078E682 /* sound3.mp3 in Resources */,
+				6C03F1C21EB43ED8004DAE22 /* sound-Rain.mp3 in Resources */,
+				6C03F1C11EB43ED8004DAE22 /* sound-Water.mp3 in Resources */,
+				6C1E52FE1EAA99F7004CD525 /* IMG_3860.JPG in Resources */,
+				6C9DA8AB1EADAB3B0078E682 /* sound4.mp3 in Resources */,
+				6C288EB71EA5141D00033DAB /* background1.jpg in Resources */,
+				6C03F1C01EB43ED8004DAE22 /* sound-Bell.mp3 in Resources */,
+				6C288EB51EA4620A00033DAB /* tab_img.png in Resources */,
+				6C03F1C31EB43ED8004DAE22 /* sound-Bug.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C288E881EA0447700033DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C03F1B31EB41CDB004DAE22 /* sleeping.xcdatamodeld in Sources */,
+				6C288EB31EA459AD00033DAB /* TabBarViewController.m in Sources */,
+				6C9DA8A51EAD54E80078E682 /* SoundPickViewController.m in Sources */,
+				6C03F1BB1EB43AA9004DAE22 /* SleepSoundViewController.m in Sources */,
+				6C288EAF1EA4556800033DAB /* AlarmViewController.m in Sources */,
+				6C89617B1EA5B1B300678FE6 /* CustomNavigationViewController.m in Sources */,
+				6C9DA89F1EABE6AD0078E682 /* WakeUpViewController.m in Sources */,
+				6C288E941EA0447700033DAB /* AppDelegate.m in Sources */,
+				6C288EBA1EA5649000033DAB /* TestCycleViewController.m in Sources */,
+				6CA023801EB13C5100BCABD9 /* SoundSettingViewController.m in Sources */,
+				6C8961741EA5981300678FE6 /* CustomPush.m in Sources */,
+				6CA0238C1EB184CF00BCABD9 /* HYNoticeView.m in Sources */,
+				6C8961771EA5A81400678FE6 /* CustomPop.m in Sources */,
+				6C1E52F81EA66E64004CD525 /* AlarmRunningViewController.m in Sources */,
+				6C288E911EA0447700033DAB /* main.m in Sources */,
+				6C9DA8B31EAFA87D0078E682 /* SettingViewController.m in Sources */,
+				6C03F1B71EB42122004DAE22 /* StatisticsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C288E9B1EA0447700033DAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C288E9C1EA0447700033DAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C288EA01EA0447700033DAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C288EA11EA0447700033DAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C288EA41EA0447700033DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C288EA51EA0447700033DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C288EA71EA0447700033DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SleepCycleAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SleepCycleAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C288EA81EA0447700033DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SleepCycleAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SleepCycleAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C288E871EA0447700033DAB /* Build configuration list for PBXProject "SleepCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C288EA41EA0447700033DAB /* Debug */,
+				6C288EA51EA0447700033DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C288EA61EA0447700033DAB /* Build configuration list for PBXNativeTarget "SleepCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C288EA71EA0447700033DAB /* Debug */,
+				6C288EA81EA0447700033DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C03F1B11EB41CDB004DAE22 /* sleeping.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C03F1B21EB41CDB004DAE22 /* sleeping.xcdatamodel */,
+			);
+			currentVersion = 6C03F1B21EB41CDB004DAE22 /* sleeping.xcdatamodel */;
+			path = sleeping.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C288E841EA0447700033DAB /* Project object */;
+}
